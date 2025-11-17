@@ -47,15 +47,15 @@ const Header = () => {
 
           {/* Desktop Search */}
           <div className="hidden lg:flex flex-1 max-w-xl mx-8">
-            <div className="relative w-full">
+            <div className="search-container w-full">
               <Input
                 type="search"
                 placeholder="Search products..."
-                className="w-full pr-10"
+                className="search-input border-0 bg-transparent rounded-none focus-visible:ring-0 focus-visible:ring-offset-0"
               />
               <Button
                 size="sm"
-                className="absolute right-1 top-1/2 -translate-y-1/2 h-8"
+                className="search-icon-button rounded-none h-11"
               >
                 <Search className="h-4 w-4" />
               </Button>
@@ -92,15 +92,15 @@ const Header = () => {
 
         {/* Mobile Search */}
         <div className="lg:hidden mt-4">
-          <div className="relative">
+          <div className="search-container">
             <Input
               type="search"
               placeholder="Search products..."
-              className="w-full pr-10"
+              className="search-input border-0 bg-transparent rounded-none focus-visible:ring-0 focus-visible:ring-offset-0"
             />
             <Button
               size="sm"
-              className="absolute right-1 top-1/2 -translate-y-1/2 h-8"
+              className="search-icon-button rounded-none h-11"
             >
               <Search className="h-4 w-4" />
             </Button>

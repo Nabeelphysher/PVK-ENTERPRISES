@@ -122,14 +122,9 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-border bg-muted/30">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-            <p>© Copyrights 2025 - 2026. PVK ENTERPRISES. All Rights Reserved.</p>
-            <div className="flex items-center gap-2">
-              <span>Powered By</span>
-              <span className="font-bold text-primary">JustDial</span>
-              <span className="text-yellow-500">★★★★★</span>
-            </div>
-          </div>
+          <p className="text-center text-sm text-muted-foreground">
+            © Copyrights 2025 - 2026. PVK ENTERPRISES. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>
